@@ -1,0 +1,157 @@
+body {
+  font-family: Faber Sans Pro;
+}
+
+img {
+  height: 10rem;
+}
+
+footer {
+  background-color: #13314D
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container .main-nav-menu {
+  justify-content: center;
+}
+
+.logo-ctn {
+  width: 100px;
+  padding: 10px;
+}
+
+.main-nav nav, .main-nav .nav-link ul {
+  display: flex;
+}
+
+.main-nav {
+  background-color: #FFFFFF;
+}
+
+.main-nav nav {
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+
+.main-nav .nav-link ul {
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.main-nav .nav-link li {
+  padding: 20px 45px;
+  color: #808a9f;
+}
+
+.main-nav .nav-link a {
+  text-decoration: none;
+  color: #808a9f;
+}
+
+.main-nav-bottom a {
+  color: #808a9f;
+  text-decoration: none;
+}
+
+.main-nav-bottom {
+  height: 30px;
+  list-style-type: none;
+  justify-content: space-around;
+  display: flex;
+  font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding-right: 30px;
+  background-color: #13314D;
+  align-items: center;
+}
+
+.singleproduct {
+  max-width: 100%;
+  margin-right: 30px;
+}
+
+.singleproduct img {
+  height: 20rem;
+}
+
+.singleproduct p {
+  margin-bottom: 15px;
+}
+
+.product-img .overlay {
+  background-color: rgba(182, 37, 97, .7);
+  position: absolute;
+  font-size: 60px;
+  width: 100%;
+  height: 200%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img:hover .overlay {
+  display: flex;
+}
+
+.productcta {
+  text-decoration: none;
+  background-color: #13314D;
+  color: #808a9f;
+  padding: 15px 10px;
+  border-radius: 30px;
+}
+
+.productcta-hero {
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: #13314D;
+  color: #808a9f;
+  padding: 10px 10px;
+}
+
+.product-action {
+  justify-content: space-around;
+}
+
+.product-action p {
+  font-size: 15px;
+}
+
+.shop {
+  width: 1170px;
+  margin: 100px auto;
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-around;
+}
+
+.hero {
+  background-image: url(../image/nouvellecollection3.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: ArterioNonCommercial;
+  font-size: 30px;
+  color: #808a9f;
+  display: flex;
+}
