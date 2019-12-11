@@ -1,9 +1,10 @@
 body {
-  font-family: Faber Sans Pro;
+   font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
 }
 
 img {
-  height: 10rem;
+  height: 15rem;
 }
 
 footer {
